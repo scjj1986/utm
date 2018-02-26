@@ -1,14 +1,16 @@
-1) Instalar AppServ versi髇 8.6
-	*En la instalaci髇, colocar contrase馻 : 1234567-
+1) Instalar AppServ versi贸n 8.6
+	*En la instalaci贸n, colocar contrase帽a : 1234567-
 
-2) Acceder a phpMyAdmin en el navegador web (direcci髇: http://localhost/phpMyAdmin).
+2) Acceder a phpMyAdmin en el navegador web (direcci贸n: http://localhost/phpMyAdmin).
 	*usuario: root
-	*contrase馻: 1234567-
+	*contrase帽a: 1234567-
 
 3) crear manualmente base de datos (nombre: utm).
 
-4) Importar base de datos (archivo utm.sql).
+4) Descargar repositorio.
 
-5) Copiar contenido del repositorio en esta direcci髇 en el explorador de archivos (C:\AppServ\www)
+5) Importar base de datos (archivo utm.sql).
 
-6) Acceder en el navegador web (direccion: http://localhost/utm)
+6) Copiar y pegar carpeta del repositorio en esta direcci贸n en el explorador de archivos (C:\AppServ\www)
+
+7) Acceder en el navegador web (direccion: http://localhost/utm)
