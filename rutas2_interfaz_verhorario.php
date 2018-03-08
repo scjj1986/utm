@@ -95,7 +95,7 @@ $fl= mysql_fetch_array($cnslt);
 
 <div class="panel panel-primary">
   <div class="panel-heading">
-    <h2 class="panel-title"><span align="right" class="glyphicon glyphicon-time"></span><b>&nbsp;&nbsp;ACTUALIZAR HORARIO</b></h2>
+    <h2 class="panel-title"><span align="right" class="glyphicon glyphicon-time"></span><b>&nbsp;&nbsp;VER HORARIO</b></h2>
   </div>
   <div class="panel-body">
     <div class="container">
