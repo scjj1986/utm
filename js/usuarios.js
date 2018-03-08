@@ -15,6 +15,8 @@ jQuery(document).ready(function(){
 			swal("¡Error!", "Campo nombre vacío", "error");
 		else if ($("#apellido").val()=="")
 			swal("¡Error!", "Campo apellido vacío", "error");
+		else if ($("#login").val()=="")
+      			swal("¡Error!", "Campo login vacío", "error");
 		else if ($("#pss").val()=="")
 			swal("¡Error!", "Campo contraseña vacío", "error");
 		else if ($("#pss").val()!=$("#pss2").val())
