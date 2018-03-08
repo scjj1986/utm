@@ -98,24 +98,20 @@ jQuery(document).ready(function(){
               if ($("#lgn").val()=="" || $("#clv").val()=="")
                   swal("¡Error!", "No puede dejar campos vacíos", "error");
               else{
-
                   $.post("sesion_codigo_autenticar.php",$("#frmlgn").serialize(),function(res){
 
-                      if (res==-1){
-                                    
-                                      swal("¡Error!", "Login y/o Clave incorrectos", "error"); 
-                                  }
-                                  else if (res==1) {
-                                       $("#ModalLogin").modal('hide');               
-                                      window.location.replace('index.php');
-                                                
-                                    }else {
-                                    
-                                        swal("¡Error!", "Error en acceso", "error");
-                                    }
+                      if (res==-1)
+                          swal("¡Error!", "Login y/o Clave incorrectos", "error");
+                      else if (res==-2)
+                          swal("¡Error!", "Usuario inactivo", "error");
+                      else if (res==1) {
+                          $("#ModalLogin").modal('hide');               
+                          window.location.replace('index.php');
+                      }else {
+                          swal("¡Error!", "Error en acceso", "error");
+                      }
 
                   });
-
               }
             }
 
